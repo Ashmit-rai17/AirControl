@@ -10,12 +10,12 @@ while True:
     gray = cv.cvtColor(frame , cv.COLOR_BGR2GRAY)
     _, thresh = cv.threshold(gray, 127, 255, cv.THRESH_BINARY)
     edges = cv.Canny(gray , 100 , 200)
-    edges_res = cv.resize(edges , (screen_width , screen_height))
+    #edges_res = cv.resize(edges , (screen_width , screen_height))
     
     cv.imshow('Video' , frame)
     cv.imshow('Grayscaled' , gray)
     #cv.imshow('Threshold' , thresh)
-    cv.imshow('Edge detection', edges_res)
+    cv.imshow('Edge detection', edges)
    
 
 
