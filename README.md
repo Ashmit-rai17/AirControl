@@ -20,9 +20,9 @@ Ensure you have Python installed (>= 3.7).
 
 ### Install Dependencies
 Run the following command to install required packages:
-
+```bash
 pip install opencv-python mediapipe numpy pyautogui
-
+```
 ---
 ## Usage
 
